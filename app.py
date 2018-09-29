@@ -43,7 +43,7 @@ class Prediction(Model):
         database = DB
 
 
-DB.drop_tables([Prediction], safe=True)
+#DB.drop_tables([Prediction], safe=True)
 DB.create_tables([Prediction], safe=True)
 
 # End database stuff
